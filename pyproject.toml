@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "freecodecamp_reinforcement_learning_tutorial"
+version = "0.1.0"
+description = "Tutorial on developing a snake game with pygame and then creating an artificial intelligence to play it. In this tutorial will be teach how to implement a deep neural network to play the game with reinforcement learning."
+authors = ["Cassius <cassiustcmendes@hotmail.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.11"
+pygame = "^2.1.2"
+torch = "^1.11.0"
+torchvision = "^0.12.0"
+matplotlib = "^3.5.1"
+ipython = "^8.2.0"
+pyinstaller = "^5.0.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
